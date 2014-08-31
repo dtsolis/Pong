@@ -56,6 +56,7 @@
 		8D9DDDDE19B25D49008496D2 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDDD19B25D49008496D2 /* FireParticle.sks */; };
 		8D9DDDE019B25E5D008496D2 /* SmallFireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDDF19B25E5D008496D2 /* SmallFireParticle.sks */; };
 		8D9DDDE219B26288008496D2 /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDE119B26288008496D2 /* Damage.caf */; };
+		8D9DDDE419B3A532008496D2 /* music and sound credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDE319B3A532008496D2 /* music and sound credits.txt */; };
 		8DCA78BA19AD28000018509F /* DTButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78B919AD28000018509F /* DTButtonNode.m */; };
 		8DCA78BC19AD31010018509F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA78BB19AD31010018509F /* Sprites.atlas */; };
 		8DCA78BF19AD3B010018509F /* DTGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78BE19AD3B010018509F /* DTGamePlayScene.m */; };
@@ -149,6 +150,7 @@
 		8D9DDDDD19B25D49008496D2 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
 		8D9DDDDF19B25E5D008496D2 /* SmallFireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmallFireParticle.sks; sourceTree = "<group>"; };
 		8D9DDDE119B26288008496D2 /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		8D9DDDE319B3A532008496D2 /* music and sound credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "music and sound credits.txt"; sourceTree = SOURCE_ROOT; };
 		8DCA78B819AD28000018509F /* DTButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTButtonNode.h; sourceTree = "<group>"; };
 		8DCA78B919AD28000018509F /* DTButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTButtonNode.m; sourceTree = "<group>"; };
 		8DCA78BB19AD31010018509F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 				8D6BDE2A19AC7C67007848FE /* DTViewController.m */,
 				8D6BDE1C19AC7C67007848FE /* Pong-Info.plist */,
 				8D6BDE1D19AC7C67007848FE /* InfoPlist.strings */,
+				8D9DDDE319B3A532008496D2 /* music and sound credits.txt */,
 				8D6BDE2019AC7C67007848FE /* main.m */,
 				8D6BDE2219AC7C67007848FE /* Pong-Prefix.pch */,
 			);
@@ -491,6 +494,7 @@
 				8D9DDDCC19B0C7B3008496D2 /* throw.caf in Resources */,
 				8D9DDDC619B09C08008496D2 /* boom2.caf in Resources */,
 				8DCA78BC19AD31010018509F /* Sprites.atlas in Resources */,
+				8D9DDDE419B3A532008496D2 /* music and sound credits.txt in Resources */,
 				8D9DDDD719B0EAB9008496D2 /* sunshine_0.mp3 in Resources */,
 				8D4F2BD919B0910400DAEE1E /* Pong.caf in Resources */,
 				8D6BDE2819AC7C67007848FE /* Main.storyboard in Resources */,
