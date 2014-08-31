@@ -1,0 +1,59 @@
+=============
+||| music |||
+=============
+
+title: 		Fast, high music originally intended for Red Eclipse.
+filename: 	RE.mp3
+author: 	Wesker Hunter
+url:		http://opengameart.org/content/fast-high-music
+
+
+title: 		sunshine
+filename: 	sunshine_0.mp3
+author: 	syncopika
+url:		http://opengameart.org/content/sunshine
+
+
+
+
+
+=====================
+||| sound effects |||
+=====================
+
+title: 		Boom pack 1
+filename: 	boom2.caf
+author: 	dklon
+url:		http://opengameart.org/content/boom-pack-1
+
+
+title: 		Applause
+filename: 	Applause.caf
+author: 	Blender Foundation
+url:		http://opengameart.org/content/applause
+
+
+
+title: 		bubbles 'pop'
+filename: 	bubble_pop.caf
+author: 	farfadet46
+url:		http://opengameart.org/content/bubbles-pop
+
+
+title: 		sfx_throw
+filename: 	throw.caf
+author: 	(c) copyright Blender Foundation | apricot.blender.org
+url:		http://opengameart.org/content/sfxthrow
+
+
+title: 		Pong Sfx
+filename: 	Pong.caf
+author: 	Deathsbreed
+url:		http://opengameart.org/content/pong-sfx
+
+title: 		Ringing of a bell like in a boxing fight
+filename: 	dingding.caf
+author: 	ljudman
+url:		https://www.freesound.org/people/ljudman/sounds/33244/
+
+
