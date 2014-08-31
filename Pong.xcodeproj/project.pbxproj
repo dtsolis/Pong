@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D367FC419AE6E1F00280E06 /* DTWallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D367FC319AE6E1F00280E06 /* DTWallNode.m */; };
+		8D4F2BB519AFDDCD00DAEE1E /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BA519AFDDCD00DAEE1E /* SKAction+SKTExtras.m */; };
+		8D4F2BB619AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BA719AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.m */; };
+		8D4F2BB719AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BA919AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.m */; };
+		8D4F2BB819AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BAB19AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.m */; };
+		8D4F2BB919AFDDCD00DAEE1E /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BAD19AFDDCD00DAEE1E /* SKNode+SKTExtras.m */; };
+		8D4F2BBA19AFDDCD00DAEE1E /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BAF19AFDDCD00DAEE1E /* SKTAudio.m */; };
+		8D4F2BBB19AFDDCD00DAEE1E /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BB119AFDDCD00DAEE1E /* SKTEffects.m */; };
+		8D4F2BBC19AFDDCD00DAEE1E /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BB319AFDDCD00DAEE1E /* SKTTimingFunctions.m */; };
+		8D4F2BC319AFFA3800DAEE1E /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D4F2BC119AFFA3800DAEE1E /* Explosion.sks */; };
+		8D4F2BC419AFFA3800DAEE1E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4F2BC219AFFA3800DAEE1E /* spark.png */; };
+		8D4F2BD719B08E2300DAEE1E /* DTGenericScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F2BD619B08E2300DAEE1E /* DTGenericScene.m */; };
+		8D4F2BD919B0910400DAEE1E /* Pong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4F2BD819B0910400DAEE1E /* Pong.caf */; };
+		8D4F2BDB19B0936D00DAEE1E /* bubble_pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4F2BDA19B0936D00DAEE1E /* bubble_pop.caf */; };
 		8D6BDE1319AC7C67007848FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE1219AC7C67007848FE /* Foundation.framework */; };
 		8D6BDE1519AC7C67007848FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE1419AC7C67007848FE /* CoreGraphics.framework */; };
 		8D6BDE1719AC7C67007848FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE1619AC7C67007848FE /* UIKit.framework */; };
@@ -16,14 +30,38 @@
 		8D6BDE2519AC7C67007848FE /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2419AC7C67007848FE /* DTAppDelegate.m */; };
 		8D6BDE2819AC7C67007848FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2619AC7C67007848FE /* Main.storyboard */; };
 		8D6BDE2B19AC7C67007848FE /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2A19AC7C67007848FE /* DTViewController.m */; };
-		8D6BDE2E19AC7C67007848FE /* DTMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2D19AC7C67007848FE /* DTMyScene.m */; };
-		8D6BDE3019AC7C67007848FE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2F19AC7C67007848FE /* Spaceship.png */; };
+		8D6BDE2E19AC7C67007848FE /* DTTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE2D19AC7C67007848FE /* DTTitleScene.m */; };
 		8D6BDE3219AC7C67007848FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6BDE3119AC7C67007848FE /* Images.xcassets */; };
 		8D6BDE3919AC7C67007848FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE3819AC7C67007848FE /* XCTest.framework */; };
 		8D6BDE3A19AC7C67007848FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE1219AC7C67007848FE /* Foundation.framework */; };
 		8D6BDE3B19AC7C67007848FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BDE1619AC7C67007848FE /* UIKit.framework */; };
 		8D6BDE4319AC7C67007848FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D6BDE4119AC7C67007848FE /* InfoPlist.strings */; };
 		8D6BDE4519AC7C67007848FE /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE4419AC7C67007848FE /* PongTests.m */; };
+		8D6BDE5019AC8284007848FE /* DTLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE4F19AC8284007848FE /* DTLabelNode.m */; };
+		8D6BDE5719AC85EC007848FE /* DTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE5619AC85EC007848FE /* DTUtils.m */; };
+		8D6BDE5A19AC87D3007848FE /* SKScene+Extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDE5919AC87D3007848FE /* SKScene+Extentions.m */; };
+		8D7234FE19AF36A7008842B2 /* DTCountDownNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7234FD19AF36A7008842B2 /* DTCountDownNode.m */; };
+		8D7235A519AFAFE7008842B2 /* DTOptionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235A419AFAFE7008842B2 /* DTOptionsScene.m */; };
+		8D7235A819AFB758008842B2 /* DTCheckBoxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235A719AFB758008842B2 /* DTCheckBoxNode.m */; };
+		8D7235AB19AFBF91008842B2 /* DTGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235AA19AFBF91008842B2 /* DTGameOverScene.m */; };
+		8D7235AE19AFC32E008842B2 /* DSMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235AD19AFC32E008842B2 /* DSMultilineLabelNode.m */; };
+		8D9DDDC419B0982B008496D2 /* dingding.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC319B0982B008496D2 /* dingding.caf */; };
+		8D9DDDC619B09C08008496D2 /* boom2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC519B09C08008496D2 /* boom2.caf */; };
+		8D9DDDCA19B0AF68008496D2 /* applause.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC919B0AF68008496D2 /* applause.caf */; };
+		8D9DDDCC19B0C7B3008496D2 /* throw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDCB19B0C7B3008496D2 /* throw.caf */; };
+		8D9DDDD119B0C817008496D2 /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDCE19B0C817008496D2 /* GameOver.mp3 */; };
+		8D9DDDD219B0C817008496D2 /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDCF19B0C817008496D2 /* Gameplay.mp3 */; };
+		8D9DDDD719B0EAB9008496D2 /* sunshine_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDD519B0EAB9008496D2 /* sunshine_0.mp3 */; };
+		8D9DDDDA19B239BA008496D2 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDD919B239BA008496D2 /* SmokeParticle.sks */; };
+		8D9DDDDE19B25D49008496D2 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDDD19B25D49008496D2 /* FireParticle.sks */; };
+		8D9DDDE019B25E5D008496D2 /* SmallFireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDDF19B25E5D008496D2 /* SmallFireParticle.sks */; };
+		8D9DDDE219B26288008496D2 /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDE119B26288008496D2 /* Damage.caf */; };
+		8DCA78BA19AD28000018509F /* DTButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78B919AD28000018509F /* DTButtonNode.m */; };
+		8DCA78BC19AD31010018509F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA78BB19AD31010018509F /* Sprites.atlas */; };
+		8DCA78BF19AD3B010018509F /* DTGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78BE19AD3B010018509F /* DTGamePlayScene.m */; };
+		8DCA78C219AD3FA30018509F /* DTBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78C119AD3FA30018509F /* DTBallNode.m */; };
+		8DCA78C519ADC36D0018509F /* DTPaddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78C419ADC36D0018509F /* DTPaddleNode.m */; };
+		8DCA78C819ADDFA60018509F /* DTHudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA78C719ADDFA60018509F /* DTHudNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +75,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D367FC219AE6E1F00280E06 /* DTWallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWallNode.h; sourceTree = "<group>"; };
+		8D367FC319AE6E1F00280E06 /* DTWallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWallNode.m; sourceTree = "<group>"; };
+		8D4F2BA419AFDDCD00DAEE1E /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		8D4F2BA519AFDDCD00DAEE1E /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		8D4F2BA619AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		8D4F2BA719AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		8D4F2BA819AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		8D4F2BA919AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		8D4F2BAA19AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		8D4F2BAB19AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		8D4F2BAC19AFDDCD00DAEE1E /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		8D4F2BAD19AFDDCD00DAEE1E /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		8D4F2BAE19AFDDCD00DAEE1E /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		8D4F2BAF19AFDDCD00DAEE1E /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		8D4F2BB019AFDDCD00DAEE1E /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		8D4F2BB119AFDDCD00DAEE1E /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		8D4F2BB219AFDDCD00DAEE1E /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		8D4F2BB319AFDDCD00DAEE1E /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		8D4F2BB419AFDDCD00DAEE1E /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		8D4F2BC119AFFA3800DAEE1E /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		8D4F2BC219AFFA3800DAEE1E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		8D4F2BD519B08E2300DAEE1E /* DTGenericScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGenericScene.h; sourceTree = "<group>"; };
+		8D4F2BD619B08E2300DAEE1E /* DTGenericScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGenericScene.m; sourceTree = "<group>"; };
+		8D4F2BD819B0910400DAEE1E /* Pong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pong.caf; sourceTree = "<group>"; };
+		8D4F2BDA19B0936D00DAEE1E /* bubble_pop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_pop.caf; sourceTree = "<group>"; };
 		8D6BDE0F19AC7C67007848FE /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6BDE1219AC7C67007848FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D6BDE1419AC7C67007848FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,15 +114,52 @@
 		8D6BDE2719AC7C67007848FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D6BDE2919AC7C67007848FE /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
 		8D6BDE2A19AC7C67007848FE /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
-		8D6BDE2C19AC7C67007848FE /* DTMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTMyScene.h; sourceTree = "<group>"; };
-		8D6BDE2D19AC7C67007848FE /* DTMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTMyScene.m; sourceTree = "<group>"; };
-		8D6BDE2F19AC7C67007848FE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		8D6BDE2C19AC7C67007848FE /* DTTitleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTTitleScene.h; sourceTree = "<group>"; };
+		8D6BDE2D19AC7C67007848FE /* DTTitleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTitleScene.m; sourceTree = "<group>"; };
 		8D6BDE3119AC7C67007848FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D6BDE3719AC7C67007848FE /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6BDE3819AC7C67007848FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8D6BDE4019AC7C67007848FE /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		8D6BDE4219AC7C67007848FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D6BDE4419AC7C67007848FE /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		8D6BDE4E19AC8284007848FE /* DTLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLabelNode.h; sourceTree = "<group>"; };
+		8D6BDE4F19AC8284007848FE /* DTLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLabelNode.m; sourceTree = "<group>"; };
+		8D6BDE5519AC85EC007848FE /* DTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTUtils.h; sourceTree = "<group>"; };
+		8D6BDE5619AC85EC007848FE /* DTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTUtils.m; sourceTree = "<group>"; };
+		8D6BDE5819AC87D3007848FE /* SKScene+Extentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+Extentions.h"; sourceTree = "<group>"; };
+		8D6BDE5919AC87D3007848FE /* SKScene+Extentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+Extentions.m"; sourceTree = "<group>"; };
+		8D7234FC19AF36A7008842B2 /* DTCountDownNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCountDownNode.h; sourceTree = "<group>"; };
+		8D7234FD19AF36A7008842B2 /* DTCountDownNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCountDownNode.m; sourceTree = "<group>"; };
+		8D7235A319AFAFE7008842B2 /* DTOptionsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOptionsScene.h; sourceTree = "<group>"; };
+		8D7235A419AFAFE7008842B2 /* DTOptionsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOptionsScene.m; sourceTree = "<group>"; };
+		8D7235A619AFB758008842B2 /* DTCheckBoxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCheckBoxNode.h; sourceTree = "<group>"; };
+		8D7235A719AFB758008842B2 /* DTCheckBoxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCheckBoxNode.m; sourceTree = "<group>"; };
+		8D7235A919AFBF91008842B2 /* DTGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGameOverScene.h; sourceTree = "<group>"; };
+		8D7235AA19AFBF91008842B2 /* DTGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGameOverScene.m; sourceTree = "<group>"; };
+		8D7235AC19AFC32E008842B2 /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
+		8D7235AD19AFC32E008842B2 /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; };
+		8D9DDDC319B0982B008496D2 /* dingding.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dingding.caf; sourceTree = "<group>"; };
+		8D9DDDC519B09C08008496D2 /* boom2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = boom2.caf; sourceTree = "<group>"; };
+		8D9DDDC919B0AF68008496D2 /* applause.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = applause.caf; sourceTree = "<group>"; };
+		8D9DDDCB19B0C7B3008496D2 /* throw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = throw.caf; sourceTree = "<group>"; };
+		8D9DDDCE19B0C817008496D2 /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		8D9DDDCF19B0C817008496D2 /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		8D9DDDD519B0EAB9008496D2 /* sunshine_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunshine_0.mp3; sourceTree = "<group>"; };
+		8D9DDDD919B239BA008496D2 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		8D9DDDDD19B25D49008496D2 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		8D9DDDDF19B25E5D008496D2 /* SmallFireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmallFireParticle.sks; sourceTree = "<group>"; };
+		8D9DDDE119B26288008496D2 /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		8DCA78B819AD28000018509F /* DTButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTButtonNode.h; sourceTree = "<group>"; };
+		8DCA78B919AD28000018509F /* DTButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTButtonNode.m; sourceTree = "<group>"; };
+		8DCA78BB19AD31010018509F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		8DCA78BD19AD3B010018509F /* DTGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGamePlayScene.h; sourceTree = "<group>"; };
+		8DCA78BE19AD3B010018509F /* DTGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGamePlayScene.m; sourceTree = "<group>"; };
+		8DCA78C019AD3FA30018509F /* DTBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBallNode.h; sourceTree = "<group>"; };
+		8DCA78C119AD3FA30018509F /* DTBallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBallNode.m; sourceTree = "<group>"; };
+		8DCA78C319ADC36D0018509F /* DTPaddleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTPaddleNode.h; sourceTree = "<group>"; };
+		8DCA78C419ADC36D0018509F /* DTPaddleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTPaddleNode.m; sourceTree = "<group>"; };
+		8DCA78C619ADDFA60018509F /* DTHudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHudNode.h; sourceTree = "<group>"; };
+		8DCA78C719ADDFA60018509F /* DTHudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHudNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +187,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D367FBE19AE45F000280E06 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				8D367FC019AE462400280E06 /* General */,
+				8D367FC119AE463800280E06 /* Gameplay */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		8D367FBF19AE460500280E06 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F2BD519B08E2300DAEE1E /* DTGenericScene.h */,
+				8D4F2BD619B08E2300DAEE1E /* DTGenericScene.m */,
+				8D6BDE2C19AC7C67007848FE /* DTTitleScene.h */,
+				8D6BDE2D19AC7C67007848FE /* DTTitleScene.m */,
+				8D7235A319AFAFE7008842B2 /* DTOptionsScene.h */,
+				8D7235A419AFAFE7008842B2 /* DTOptionsScene.m */,
+				8DCA78BD19AD3B010018509F /* DTGamePlayScene.h */,
+				8DCA78BE19AD3B010018509F /* DTGamePlayScene.m */,
+				8D7235A919AFBF91008842B2 /* DTGameOverScene.h */,
+				8D7235AA19AFBF91008842B2 /* DTGameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		8D367FC019AE462400280E06 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8D6BDE4E19AC8284007848FE /* DTLabelNode.h */,
+				8D6BDE4F19AC8284007848FE /* DTLabelNode.m */,
+				8D7235AC19AFC32E008842B2 /* DSMultilineLabelNode.h */,
+				8D7235AD19AFC32E008842B2 /* DSMultilineLabelNode.m */,
+				8DCA78B819AD28000018509F /* DTButtonNode.h */,
+				8DCA78B919AD28000018509F /* DTButtonNode.m */,
+				8D7235A619AFB758008842B2 /* DTCheckBoxNode.h */,
+				8D7235A719AFB758008842B2 /* DTCheckBoxNode.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		8D367FC119AE463800280E06 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				8DCA78C619ADDFA60018509F /* DTHudNode.h */,
+				8DCA78C719ADDFA60018509F /* DTHudNode.m */,
+				8DCA78C019AD3FA30018509F /* DTBallNode.h */,
+				8DCA78C119AD3FA30018509F /* DTBallNode.m */,
+				8DCA78C319ADC36D0018509F /* DTPaddleNode.h */,
+				8DCA78C419ADC36D0018509F /* DTPaddleNode.m */,
+				8D367FC219AE6E1F00280E06 /* DTWallNode.h */,
+				8D367FC319AE6E1F00280E06 /* DTWallNode.m */,
+				8D7234FC19AF36A7008842B2 /* DTCountDownNode.h */,
+				8D7234FD19AF36A7008842B2 /* DTCountDownNode.m */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		8D4F2BA319AFDDCD00DAEE1E /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F2BA419AFDDCD00DAEE1E /* SKAction+SKTExtras.h */,
+				8D4F2BA519AFDDCD00DAEE1E /* SKAction+SKTExtras.m */,
+				8D4F2BA619AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.h */,
+				8D4F2BA719AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.m */,
+				8D4F2BA819AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.h */,
+				8D4F2BA919AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.m */,
+				8D4F2BAA19AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.h */,
+				8D4F2BAB19AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.m */,
+				8D4F2BAC19AFDDCD00DAEE1E /* SKNode+SKTExtras.h */,
+				8D4F2BAD19AFDDCD00DAEE1E /* SKNode+SKTExtras.m */,
+				8D4F2BAE19AFDDCD00DAEE1E /* SKTAudio.h */,
+				8D4F2BAF19AFDDCD00DAEE1E /* SKTAudio.m */,
+				8D4F2BB019AFDDCD00DAEE1E /* SKTEffects.h */,
+				8D4F2BB119AFDDCD00DAEE1E /* SKTEffects.m */,
+				8D4F2BB219AFDDCD00DAEE1E /* SKTTimingFunctions.h */,
+				8D4F2BB319AFDDCD00DAEE1E /* SKTTimingFunctions.m */,
+				8D4F2BB419AFDDCD00DAEE1E /* SKTUtils.h */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		8D4F2BC519B0857F00DAEE1E /* sfx */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DDDE119B26288008496D2 /* Damage.caf */,
+				8D9DDDCB19B0C7B3008496D2 /* throw.caf */,
+				8D9DDDC919B0AF68008496D2 /* applause.caf */,
+				8D9DDDC519B09C08008496D2 /* boom2.caf */,
+				8D9DDDC319B0982B008496D2 /* dingding.caf */,
+				8D4F2BDA19B0936D00DAEE1E /* bubble_pop.caf */,
+				8D4F2BD819B0910400DAEE1E /* Pong.caf */,
+			);
+			path = sfx;
+			sourceTree = "<group>";
+		};
 		8D6BDE0619AC7C67007848FE = {
 			isa = PBXGroup;
 			children = (
@@ -124,11 +320,16 @@
 				8D6BDE2319AC7C67007848FE /* DTAppDelegate.h */,
 				8D6BDE2419AC7C67007848FE /* DTAppDelegate.m */,
 				8D6BDE2619AC7C67007848FE /* Main.storyboard */,
-				8D6BDE2919AC7C67007848FE /* DTViewController.h */,
-				8D6BDE2A19AC7C67007848FE /* DTViewController.m */,
-				8D6BDE2C19AC7C67007848FE /* DTMyScene.h */,
-				8D6BDE2D19AC7C67007848FE /* DTMyScene.m */,
-				8D6BDE2F19AC7C67007848FE /* Spaceship.png */,
+				8D367FBF19AE460500280E06 /* Scenes */,
+				8D367FBE19AE45F000280E06 /* Nodes */,
+				8D6BDE5B19AC87D6007848FE /* Categories */,
+				8D6BDE5519AC85EC007848FE /* DTUtils.h */,
+				8D6BDE5619AC85EC007848FE /* DTUtils.m */,
+				8D9DDDCD19B0C817008496D2 /* Music */,
+				8D4F2BC519B0857F00DAEE1E /* sfx */,
+				8D9DDDD819B2395E008496D2 /* Particles */,
+				8D4F2BA319AFDDCD00DAEE1E /* SKTUtils */,
+				8DCA78BB19AD31010018509F /* Sprites.atlas */,
 				8D6BDE3119AC7C67007848FE /* Images.xcassets */,
 				8D6BDE1B19AC7C67007848FE /* Supporting Files */,
 			);
@@ -138,6 +339,8 @@
 		8D6BDE1B19AC7C67007848FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D6BDE2919AC7C67007848FE /* DTViewController.h */,
+				8D6BDE2A19AC7C67007848FE /* DTViewController.m */,
 				8D6BDE1C19AC7C67007848FE /* Pong-Info.plist */,
 				8D6BDE1D19AC7C67007848FE /* InfoPlist.strings */,
 				8D6BDE2019AC7C67007848FE /* main.m */,
@@ -162,6 +365,37 @@
 				8D6BDE4119AC7C67007848FE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6BDE5B19AC87D6007848FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8D6BDE5819AC87D3007848FE /* SKScene+Extentions.h */,
+				8D6BDE5919AC87D3007848FE /* SKScene+Extentions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8D9DDDCD19B0C817008496D2 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DDDD519B0EAB9008496D2 /* sunshine_0.mp3 */,
+				8D9DDDCE19B0C817008496D2 /* GameOver.mp3 */,
+				8D9DDDCF19B0C817008496D2 /* Gameplay.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		8D9DDDD819B2395E008496D2 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DDDDD19B25D49008496D2 /* FireParticle.sks */,
+				8D9DDDDF19B25E5D008496D2 /* SmallFireParticle.sks */,
+				8D9DDDD919B239BA008496D2 /* SmokeParticle.sks */,
+				8D4F2BC119AFFA3800DAEE1E /* Explosion.sks */,
+				8D4F2BC219AFFA3800DAEE1E /* spark.png */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +475,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4F2BDB19B0936D00DAEE1E /* bubble_pop.caf in Resources */,
 				8D6BDE1F19AC7C67007848FE /* InfoPlist.strings in Resources */,
+				8D4F2BC419AFFA3800DAEE1E /* spark.png in Resources */,
+				8D9DDDD119B0C817008496D2 /* GameOver.mp3 in Resources */,
+				8D9DDDE219B26288008496D2 /* Damage.caf in Resources */,
+				8D9DDDC419B0982B008496D2 /* dingding.caf in Resources */,
+				8D9DDDDE19B25D49008496D2 /* FireParticle.sks in Resources */,
 				8D6BDE3219AC7C67007848FE /* Images.xcassets in Resources */,
-				8D6BDE3019AC7C67007848FE /* Spaceship.png in Resources */,
+				8D9DDDE019B25E5D008496D2 /* SmallFireParticle.sks in Resources */,
+				8D9DDDCA19B0AF68008496D2 /* applause.caf in Resources */,
+				8D4F2BC319AFFA3800DAEE1E /* Explosion.sks in Resources */,
+				8D9DDDD219B0C817008496D2 /* Gameplay.mp3 in Resources */,
+				8D9DDDDA19B239BA008496D2 /* SmokeParticle.sks in Resources */,
+				8D9DDDCC19B0C7B3008496D2 /* throw.caf in Resources */,
+				8D9DDDC619B09C08008496D2 /* boom2.caf in Resources */,
+				8DCA78BC19AD31010018509F /* Sprites.atlas in Resources */,
+				8D9DDDD719B0EAB9008496D2 /* sunshine_0.mp3 in Resources */,
+				8D4F2BD919B0910400DAEE1E /* Pong.caf in Resources */,
 				8D6BDE2819AC7C67007848FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +512,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7235AB19AFBF91008842B2 /* DTGameOverScene.m in Sources */,
+				8D4F2BBA19AFDDCD00DAEE1E /* SKTAudio.m in Sources */,
+				8D7235A819AFB758008842B2 /* DTCheckBoxNode.m in Sources */,
+				8D4F2BB719AFDDCD00DAEE1E /* SKEmitterNode+SKTExtras.m in Sources */,
+				8D6BDE5019AC8284007848FE /* DTLabelNode.m in Sources */,
+				8DCA78C819ADDFA60018509F /* DTHudNode.m in Sources */,
+				8D6BDE5A19AC87D3007848FE /* SKScene+Extentions.m in Sources */,
+				8D4F2BD719B08E2300DAEE1E /* DTGenericScene.m in Sources */,
+				8D7235AE19AFC32E008842B2 /* DSMultilineLabelNode.m in Sources */,
+				8DCA78BF19AD3B010018509F /* DTGamePlayScene.m in Sources */,
+				8D4F2BB519AFDDCD00DAEE1E /* SKAction+SKTExtras.m in Sources */,
+				8D4F2BBC19AFDDCD00DAEE1E /* SKTTimingFunctions.m in Sources */,
 				8D6BDE2519AC7C67007848FE /* DTAppDelegate.m in Sources */,
+				8D4F2BB819AFDDCD00DAEE1E /* SKNode+SKTDebugDraw.m in Sources */,
+				8D4F2BB619AFDDCD00DAEE1E /* SKAction+SKTSpecialEffects.m in Sources */,
+				8DCA78BA19AD28000018509F /* DTButtonNode.m in Sources */,
+				8DCA78C519ADC36D0018509F /* DTPaddleNode.m in Sources */,
+				8D7234FE19AF36A7008842B2 /* DTCountDownNode.m in Sources */,
 				8D6BDE2B19AC7C67007848FE /* DTViewController.m in Sources */,
-				8D6BDE2E19AC7C67007848FE /* DTMyScene.m in Sources */,
+				8D7235A519AFAFE7008842B2 /* DTOptionsScene.m in Sources */,
+				8D4F2BB919AFDDCD00DAEE1E /* SKNode+SKTExtras.m in Sources */,
+				8D6BDE5719AC85EC007848FE /* DTUtils.m in Sources */,
+				8D6BDE2E19AC7C67007848FE /* DTTitleScene.m in Sources */,
+				8D4F2BBB19AFDDCD00DAEE1E /* SKTEffects.m in Sources */,
+				8DCA78C219AD3FA30018509F /* DTBallNode.m in Sources */,
+				8D367FC419AE6E1F00280E06 /* DTWallNode.m in Sources */,
 				8D6BDE2119AC7C67007848FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,8 +666,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,8 +682,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +749,7 @@
 				8D6BDE4A19AC7C68007848FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D6BDE4B19AC7C68007848FE /* Build configuration list for PBXNativeTarget "PongTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +758,7 @@
 				8D6BDE4D19AC7C68007848FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

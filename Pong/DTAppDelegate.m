@@ -12,7 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    /*
+     * Setting up defaults
+     * =============================== */
+    [DTUtils initDefaults];
+    
+    
     return YES;
 }
 							
