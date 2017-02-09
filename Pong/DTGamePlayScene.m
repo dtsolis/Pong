@@ -112,6 +112,11 @@
     return self;
 }
 
+- (void)didMoveToView:(SKView *)view {
+    [super didMoveToView:view];
+    view.multipleTouchEnabled = YES;
+}
+
 - (void)setupPhysicsBody {
     self.physicsWorld.gravity = CGVectorMake(0.0f, 0.0f);
     self.physicsWorld.contactDelegate = self;
@@ -120,7 +125,6 @@
     self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
     self.physicsBody.friction = 0.0f;
 }
-
 
 #pragma mark - Loop
 - (void)update:(NSTimeInterval)currentTime {
@@ -252,10 +256,12 @@
         else {
             if (CGRectContainsPoint(self.rightHalfFrame, location)) {
                 self.isRightScreenHalfTouched = YES;
+                NSLog(@"right half");
             }
             
             if (CGRectContainsPoint(self.leftHalfFrame, location) && self.hud.isMultiplayerEnabled) {
                 self.isLeftScreenHalfTouched = YES;
+                NSLog(@"left half");
             }
         }
     }
