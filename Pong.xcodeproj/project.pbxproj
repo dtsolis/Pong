@@ -45,6 +45,7 @@
 		8D7235A819AFB758008842B2 /* DTCheckBoxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235A719AFB758008842B2 /* DTCheckBoxNode.m */; };
 		8D7235AB19AFBF91008842B2 /* DTGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235AA19AFBF91008842B2 /* DTGameOverScene.m */; };
 		8D7235AE19AFC32E008842B2 /* DSMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7235AD19AFC32E008842B2 /* DSMultilineLabelNode.m */; };
+		8D80190F1E4D216B00851DFA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D80190E1E4D216B00851DFA /* Launch Screen.storyboard */; };
 		8D9DDDC419B0982B008496D2 /* dingding.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC319B0982B008496D2 /* dingding.caf */; };
 		8D9DDDC619B09C08008496D2 /* boom2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC519B09C08008496D2 /* boom2.caf */; };
 		8D9DDDCA19B0AF68008496D2 /* applause.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9DDDC919B0AF68008496D2 /* applause.caf */; };
@@ -139,6 +140,7 @@
 		8D7235AA19AFBF91008842B2 /* DTGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGameOverScene.m; sourceTree = "<group>"; };
 		8D7235AC19AFC32E008842B2 /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
 		8D7235AD19AFC32E008842B2 /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; };
+		8D80190E1E4D216B00851DFA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8D9DDDC319B0982B008496D2 /* dingding.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dingding.caf; sourceTree = "<group>"; };
 		8D9DDDC519B09C08008496D2 /* boom2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = boom2.caf; sourceTree = "<group>"; };
 		8D9DDDC919B0AF68008496D2 /* applause.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = applause.caf; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				8D6BDE2319AC7C67007848FE /* DTAppDelegate.h */,
 				8D6BDE2419AC7C67007848FE /* DTAppDelegate.m */,
 				8D6BDE2619AC7C67007848FE /* Main.storyboard */,
+				8D80190E1E4D216B00851DFA /* Launch Screen.storyboard */,
 				8D367FBF19AE460500280E06 /* Scenes */,
 				8D367FBE19AE45F000280E06 /* Nodes */,
 				8D6BDE5B19AC87D6007848FE /* Categories */,
@@ -446,9 +449,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DT;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "DFG-Team";
 				TargetAttributes = {
+					8D6BDE0E19AC7C67007848FE = {
+						DevelopmentTeam = PC8FS8VHSM;
+					};
 					8D6BDE3619AC7C67007848FE = {
 						TestTargetID = 8D6BDE0E19AC7C67007848FE;
 					};
@@ -484,6 +490,7 @@
 				8D9DDDD119B0C817008496D2 /* GameOver.mp3 in Resources */,
 				8D9DDDE219B26288008496D2 /* Damage.caf in Resources */,
 				8D9DDDC419B0982B008496D2 /* dingding.caf in Resources */,
+				8D80190F1E4D216B00851DFA /* Launch Screen.storyboard in Resources */,
 				8D9DDDDE19B25D49008496D2 /* FireParticle.sks in Resources */,
 				8D6BDE3219AC7C67007848FE /* Images.xcassets in Resources */,
 				8D9DDDE019B25E5D008496D2 /* SmallFireParticle.sks in Resources */,
@@ -605,13 +612,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -624,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -643,20 +656,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -667,10 +685,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PC8FS8VHSM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfg-team.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -683,10 +703,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PC8FS8VHSM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfg-team.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -710,6 +732,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfg-team.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -728,6 +751,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
 				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfg-team.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
